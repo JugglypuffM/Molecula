@@ -35,4 +35,11 @@ public:
     Line();
 };
 
+class Cube{
+public:
+    Plane xy, yz, xz;
+    Cube(Plane, Plane, Plane);
+    Cube();
+};
+
 #endif //MOLECULA_OBJECTS_H

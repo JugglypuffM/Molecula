@@ -21,3 +21,9 @@ Line::Line(Point p, Vector v)
 
 Line::Line()
 : p(Point()), v(Vector()){}
+
+Cube::Cube(Plane f, Plane s, Plane p)
+: xy(f), yz(s), xz(p){}
+
+Cube::Cube()
+: xy(Plane()), yz(Plane()), xz(Plane()){}
