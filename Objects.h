@@ -13,30 +13,26 @@ using namespace std;
 #ifndef MOLECULA_OBJECTS_H
 #define MOLECULA_OBJECTS_H
 
-class Plane{
-public:
+struct Plane{
     double a, b, c ,d;
     Plane(double, double, double, double);
     Plane();
 };
 
-class Point{
-public:
+struct Point{
     double x, y, z;
     Point(double, double, double);
     Point();
 };
 
-class Line{
-public:
+struct Line{
     Point p;
     Vector v;
     Line(Point, Vector);
     Line();
 };
 
-class Cube{
-public:
+struct Cube{
     Plane xy, yz, xz;
     Cube(Plane, Plane, Plane);
     Cube();
