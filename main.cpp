@@ -7,12 +7,6 @@ double calculateTime(Line l, Plane f) {
     return (t > 0) ? t : 999999999999999;
 }
 
-Vector calculateSpeed(Vector current, Plane surface){
-    Vector normal(surface.a, surface.b, surface.c);
-    Vector projection = current - normal * ((current * normal) / (normal * normal));
-    return projection*2 - current;
-}
-
 int main() {
     Cube space(Plane(1, 0, 0, -1), Plane(0, 1, 0, -1), Plane(0, 0, 1, -1));
     Point position;
