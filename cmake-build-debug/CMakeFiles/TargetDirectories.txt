@@ -1,3 +1,0 @@
-C:/things/CLion/Small Tasks/Molecula/cmake-build-debug/CMakeFiles/Molecula.dir
-C:/things/CLion/Small Tasks/Molecula/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/things/CLion/Small Tasks/Molecula/cmake-build-debug/CMakeFiles/rebuild_cache.dir
